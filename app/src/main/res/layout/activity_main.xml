@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.payexpress.demo.MainActivity">
+
+    <Button
+        android:id="@+id/home_btn_gettoken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一步：获取token"/>
+
+    <TextView
+        android:id="@+id/home_tv_tokeninfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yayaya"
+         />
+    <Button
+        android:id="@+id/home_btn_getwechatorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取微信预下单号"/>
+
+    <TextView
+        android:id="@+id/home_tv_wechatorderinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yayaya"
+        />
+    <Button
+        android:id="@+id/home_btn_alipayorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取支付宝预下单号"/>
+
+    <TextView
+        android:id="@+id/home_tv_alipayorderinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yayaya"
+        />
+
+</LinearLayout>
