@@ -13,7 +13,7 @@ public abstract class HttpResultFunc<T extends ResponseResult> implements Func1<
             throw new ResultErrorException(t.getRet_msg());
         }
 
-        return  t;
+        return t;
     }
 
     public abstract Observable getObservable(RetrofitSrevice retrofitSrevice);
