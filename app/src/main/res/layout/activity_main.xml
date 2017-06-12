@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context="com.payexpress.demo.MainActivity">
+    tools:context="com.kayou.electric.com.zft.electric.MainActivity">
 
     <Button
         android:id="@+id/home_btn_gettoken"
@@ -24,7 +24,7 @@
         android:id="@+id/home_btn_getwechatorder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="获取微信预下单号"/>
+        android:text="微信支付"/>
 
     <TextView
         android:id="@+id/home_tv_wechatorderinfo"
@@ -33,13 +33,37 @@
         android:text="yayaya"
         />
     <Button
+        android:id="@+id/home_btn_getwechatrefund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信退款"/>
+
+    <TextView
+        android:id="@+id/home_tv_wechatrefundinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yayaya"
+        />
+    <Button
         android:id="@+id/home_btn_alipayorder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="获取支付宝预下单号"/>
+        android:text="支付宝支付"/>
 
     <TextView
         android:id="@+id/home_tv_alipayorderinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yayaya"
+        />
+    <Button
+        android:id="@+id/home_btn_alipayrefund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支付宝退款"/>
+
+    <TextView
+        android:id="@+id/home_tv_alipayrefundinfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="yayaya"
